@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/logo/logo.png">
+    <title>My CV</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bg-container">
+        <a href="#" class="nav__logo">Smith</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"
+                ><i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link"
+                ><i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bx-receipt nav__icon"></i>Skills</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"
+                ><i class="bx bx-briefcase nav__icon"></i>Experience</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"
+                ><i class="bx bx-award nav__icon"></i>Certificates</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link"
+                ><i class="bx bx-link-external nav__icon"></i>Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./img/img.jpg" alt="" class="home__img" />
+                <h1 class="home__title">DMITRY <b>MOROZOV</b></h1>
+                <h3 class="home__profession">Web developer</h3>
+                <div>
+                  <a
+                    download=""
+                    href="./pdf/my_cv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Ukraine
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  <a href="mailto:d_s.morozov@yahoo.com">d_s.morozov@yahoo.com</a>
+                  
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> 
+                  <a href="tel:+380953303387">+380953303387</a>
+                </span>
+              </div>
+            </div>
+          <!-- Change Theme -->
+          <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+          <a href="./pdf/my_cv.pdf"><i class='bx bx-download get-pdf' title="Get PDF" id="resume-button" ></i></a> 
+          </section>
+          
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/dmitry-morozov-082288228/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> r3ason_why
+              </a>
+              <a
+                href="https://t.me/r3ason_why"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-telegram social__icon"></i> r3ason_why
+              </a>
+              <a
+                href="https://www.instagram.com/r3ason_why/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram-alt social__icon"></i> r3ason_why
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+                All the experience I got from self-study, and from the university program. 
+                I have good knowledge of web technologies (HTML/CSS3/JavaScript), I understand the principles of client-server interaction, I have experience with the git version control system. I am also familiar with Python, Java at a basic level.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Secondary education</h3>
+                  <span class="education__studies"
+                    >Krasnoluchskaya gymnasium number 1 named after L.
+                    Litvyak</span
+                  >
+                  <span class="education__year">2007 - 2015</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Secondary education</h3>
+                  <span class="education__studies"
+                    >Dobropilskiy NVK "Specialized school of I-III stages”</span
+                  >
+                  <span class="education__year">2016 - 2018</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Higher education</h3>
+                  <span class="education__studies"
+                    >National Aerospace University</span
+                  >
+                  <span class="education__year">2018 - 2022</span>
+                </div>
+              </div>
+              </div>
+              <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <i class='bx bxl-html5 skill__icon' ></i> HTML
+                    </li>
+                    <li class="skills__name">
+                        <i class='bx bxl-css3 skill__icon' ></i> CSS/Sass
+                    </li>
+                    <li class="skills__name">
+                        <i class='bx bxl-javascript skill__icon' ></i>JavaScript/JSON
+                    </li>
+                  <li class="skills__name">
+                    <i class='bx bxl-git skill__icon' ></i> Git
+                  </li>
+                  <li class="skills__name">
+                    <i class='bx bxl-java skill__icon' ></i>Java
+                  </li>
+                  <li class="skills__name">
+                    <i class='bx bxl-python skill__icon' ></i>Python
+                  </li>
+                </ul>
+                <ul class="skills__data">
+                    <li class="skills__name">
+                      <i class='bx bx-group skill__icon'></i> Collaboration
+                    </li>
+                    <li class="skills__name">
+                      <i class='bx bxl-stack-overflow skill__icon' ></i> Problem Solving
+                    </li>
+                    <li class="skills__name">
+                      <i class='bx bx-line-chart skill__icon' ></i> Efficiency
+                    </li>
+                    <li class="skills__name">
+                      <i class='bx bx-angry skill__icon'></i>Self-confidence
+                    </li>
+                </ul>
+            </div>
+          </section>
+        </div>
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+                <div class="experience__content">
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                        <span class="experience__rounder"></span>
+                    </div>
+                    <div class="experience__data bd-grid">
+                        <h3 class="experience__title">JAVA DEVELOPER</h3>
+                        <span class="experience__company">From Nov 2021 to Apr 2022 | Student at SoftServe IT Academy </span>
+                        <p class="experience__description">All the experience I got from self-study, and from the university program. I have good knowledge of web technologies (HTML/CSS3/JavaScript) ,understand the principles of client-server interaction, have experience with the git version control system. I am also familiar with Python, Java at a basic level</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">CERTIFICATES</h2>
+            <div class="certificate__container bd-grid">
+                <div class="certificate__content">
+                    <h3 class="certificate__title">DEVELOPMENT, DESIGN AND ARCHITECTURE OF MODERN SOFTWARE SYSTEMS BASED ON
+                        OBJECT-ORIENTED LANGUAGES | SOFTSERVE</h3>
+                    <p class="certificate__description">For successful completion SoftServe IT Academy course.</p>
+                </div>
+                <div class="certificate__content">
+                    <h3 class="certificate__title">JAVA. ESSENTIALS CRASH COURSE | SOFTSERVE</h3>
+                    <p class="certificate__description">For successful completion SoftServe IT Academy course.</p>
+                </div>
+                <div class="certificate__content">
+                    <h3 class="certificate__title">RESPONSIVE WEB DESIGN | FREECODECAMP</h3>
+                    <p class="certificate__description">For successful completion freeCodeCamp.org Responsive Web Design.</p>
+                </div>
+                <div class="certificate__content">
+                    <h3 class="certificate__title">JAVA. FUNCTIONAL PROGRAMMING | STEPIK</h3>
+                    <p class="certificate__description">For successful completion Java Functional programming course.</p>
+                </div>
+            </div>
+          </section>
+          <!--========== PROJECTS ==========-->
+          <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects__container bd-grid">
+                <div class="projects__content bd-grid">
+                    <span class="projects__subtitle">JavaScript</span>
+                    <ul class="projects__list">
+                        <li class="list-item"><i class='bx bx-game skill__icon' ></i> <a href="https://s1een.github.io/js_projects/snake_game/" target="_blank">Snake Game</a></li>
+                        <li class="list-item"><i class='bx bx-cut skill__icon' ></i> <a href="https://s1een.github.io/js_projects/rps_game/" target="_blank">Rock, Paper, Scissors Game</a></li>
+                        <li class="list-item"><i class='bx bx-transfer-alt skill__icon'></i> <a href="https://s1een.github.io/js_projects/translator/" target="_blank">Translator (API)</a></li>
+                        <li class="list-item"><i class='bx bx-book-heart skill__icon' ></i> <a href="https://s1een.github.io/js_projects/words/" target="_blank">Urban Dictionary (API)</a></li>
+                        <li class="list-item"><i class='bx bx-qr skill__icon' ></i> <a href="https://s1een.github.io/js_projects/qr_generator/" target="_blank">QR-code Generator (API)</a></li>
+                        <li class="list-item"><i class='bx bx-calculator skill__icon' ></i> <a href="https://s1een.github.io/js_projects/expense_tracker/" target="_blank">Expense Tracker</a></li>
+                        <li class="list-item"><i class='bx bx-time-five skill__icon' ></i> <a href="https://s1een.github.io/js_projects/clock/" target="_blank">Clock</a></li>
+                        <li class="list-item"><i class='bx bx-palette skill__icon' ></i> <a href="https://s1een.github.io/js_projects/color_flipper/" target="_blank">Color Flipper</a></li>
+                        <li class="list-item"><i class='bx bx-dots-horizontal-rounded skill__icon' ></i> <a href="https://github.com/s1een/js_projects" target="_blank">Others</a></li>
+                    </ul>
+                </div>
+                <div class="projects__content bd-grid">
+                    <span class="projects__subtitle">Python</span>
+                    <ul class="projects__list">
+                        <li class="list-item"><i class='bx bx-bot skill__icon' ></i> <a href="https://github.com/s1een/bookmate" target="_blank">BookMate Telegram Bot</a></li>
+                        <li class="list-item"><i class='bx bxs-invader skill__icon' ></i> <a href="https://github.com/s1een/python_projects/tree/main/alien_invasion" target="_blank">Alien Invasion Game</a></li>
+                        <li class="list-item"><i class='bx bx-file-find skill__icon' ></i> <a href="https://github.com/s1een/python_projects/tree/main/data_bot" target="_blank">Data Telegam Bot</a></li>
+                    </ul>
+                </div>
+                <div class="projects__content bd-grid">
+                    <span class="projects__subtitle">Java</span>
+                    <ul class="projects__list">
+                        <li class="list-item"><i class='bx bx-knife skill__icon' ></i> <a href="https://github.com/s1een/MySimpleBattlels" target="_blank">Console Army Battles</a></li>
+                        <li class="list-item"><i class='bx bx-coin skill__icon' ></i> <a href="https://github.com/s1een/OrderBook" target="_blank">Console Order Book</a></li>
+                        <li class="list-item"><i class='bx bx-data skill__icon' ></i> <a href="https://github.com/s1een/OrmManagerTask" target="_blank">ORM Manager</a></li>
+                    </ul>
+                </div>
+                <div class="projects__content bd-grid">
+                    <span class="projects__subtitle">C/C++/C#</span>
+                    <ul class="projects__list">
+                        <li class="list-item"><i class='bx bx-hash skill__icon'></i> <a href="https://github.com/s1een/ShopsBD" target="_blank">Shops DataBase</a></li>
+                        <li class="list-item"><i class='bx bxl-c-plus-plus skill__icon'></i> <a href="https://github.com/s1een/c_projects" target="_blank">Others</a></li>
+                    </ul>
+                </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+                <ul class="languages__content bd-grid">
+                    <li class="languages__name">
+                        <span class="languages__circle"></span> English
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span> Ukrainian
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span> Russian
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+          <!--========== HOBBIES ==========-->
+          <section class="hobbies section">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="hobbies__container bd-grid">
+                <div class="hobbies__content">
+                    <i class='bx bxs-book-bookmark hobbies__icon'></i>
+                    <span class="hobbies__name">Books</span>
+                </div>
+                <div class="hobbies__content">
+                    <i class='bx bx-headphone hobbies__icon' ></i>
+                    <span class="hobbies__name">Music</span>
+                </div>
+                <div class="hobbies__content">
+                    <i class='bx bx-dumbbell hobbies__icon' ></i>
+                    <span class="hobbies__name">Gym</span>
+                </div>
+                <div class="hobbies__content">
+                    <i class='bx bx-dice-6 hobbies__icon' ></i>
+                    <span class="hobbies__name">Games</span>
+                </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scrolltop__icon' ></i>
+    </a>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
